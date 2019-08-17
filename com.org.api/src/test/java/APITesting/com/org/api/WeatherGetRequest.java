@@ -57,7 +57,7 @@ public void Test_04(){
 			extract().
 			path("weather[0].description");
 
-String expectedweather = "scattered clouds";
+String expectedweather = "scattered clouds2";
 if(actualweather.equalsIgnoreCase(expectedweather)){
 	System.out.println("test passed");
 }
