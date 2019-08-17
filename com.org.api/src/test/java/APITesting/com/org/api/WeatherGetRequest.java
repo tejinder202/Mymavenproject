@@ -12,9 +12,10 @@ public class WeatherGetRequest {
 @Test
 public void Test_01(){
 	Response resp=
-	get("http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22");
+	get("https://api.openweathermap.org/data/2.5/weather?q=London&appid=1f721bd004b754f9146748289e0d1e64");
 	System.out.println(resp.getStatusCode());
 	System.out.println(resp.asString());
+	System.out.println(resp.jsonPath());
 }
 
 }
