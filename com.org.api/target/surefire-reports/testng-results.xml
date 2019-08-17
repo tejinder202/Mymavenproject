@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="7014" started-at="2019-08-17T17:42:44Z" finished-at="2019-08-17T17:42:51Z">
+  <suite name="Suite" duration-ms="6200" started-at="2019-08-17T17:56:23Z" finished-at="2019-08-17T17:56:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="7014" started-at="2019-08-17T17:42:44Z" finished-at="2019-08-17T17:42:51Z">
+    <test name="Test" duration-ms="6200" started-at="2019-08-17T17:56:23Z" finished-at="2019-08-17T17:56:29Z">
       <class name="APITesting.com.org.api.WeatherGetRequest">
-        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@68837a77]" name="Test_04" duration-ms="6957" started-at="2019-08-17T17:42:44Z" finished-at="2019-08-17T17:42:51Z">
+        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@68837a77]" name="Test_04" duration-ms="6124" started-at="2019-08-17T17:56:23Z" finished-at="2019-08-17T17:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_04 -->
