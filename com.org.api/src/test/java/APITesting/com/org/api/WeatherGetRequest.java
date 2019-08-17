@@ -3,6 +3,7 @@ package APITesting.com.org.api;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.response.Response;
 
 import static com.jayway.restassured.RestAssured.*;
@@ -30,7 +31,7 @@ public void Test_02(){
 	//System.out.println(resp.jsonPath());
 }
 
-@Test
+//@Test
 public void Test_03(){
 			given().
 			param("q","London").
@@ -39,6 +40,31 @@ public void Test_03(){
 			get("https://api.openweathermap.org/data/2.5/weather").
 			then().assertThat().statusCode(200);
 	//System.out.println(resp.jsonPath());
+}
+
+@Test
+public void Test_04(){
+	
+	Response resp =given().
+			param("q","London").
+			param("appid","1f721bd004b754f9146748289e0d1e64").
+			when().
+			get("https://api.openweathermap.org/data/2.5/weather");
+	
+	String actualweather = resp.
+			then().
+			contentType(ContentType.JSON).
+			extract().
+			path("weather[0].description");
+
+String expectedweather = "scattered clouds";
+if(actualweather.equalsIgnoreCase(expectedweather)){
+	System.out.println("test passed");
+}
+else{
+	System.out.println("Test failed");
+}
+
 }
 
 }

@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5957" started-at="2019-08-17T16:47:10Z" finished-at="2019-08-17T16:47:16Z">
+  <suite name="Default suite" duration-ms="7002" started-at="2019-08-17T17:37:32Z" finished-at="2019-08-17T17:37:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5957" started-at="2019-08-17T16:47:10Z" finished-at="2019-08-17T16:47:16Z">
+    <test name="Default test" duration-ms="7002" started-at="2019-08-17T17:37:32Z" finished-at="2019-08-17T17:37:39Z">
       <class name="APITesting.com.org.api.WeatherGetRequest">
-        <test-method status="PASS" signature="Test_01()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@a4a92b]" name="Test_01" duration-ms="5906" started-at="2019-08-17T18:47:10Z" finished-at="2019-08-17T18:47:16Z">
+        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@a4a92b]" name="Test_04" duration-ms="6948" started-at="2019-08-17T19:37:32Z" finished-at="2019-08-17T19:37:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_01 -->
+        </test-method> <!-- Test_04 -->
       </class> <!-- APITesting.com.org.api.WeatherGetRequest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
