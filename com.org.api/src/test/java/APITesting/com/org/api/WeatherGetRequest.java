@@ -31,7 +31,7 @@ public void Test_02(){
 	//System.out.println(resp.jsonPath());
 }
 
-//@Test
+@Test
 public void Test_03(){
 			given().
 			param("q","London").
@@ -57,7 +57,7 @@ public void Test_04(){
 			extract().
 			path("weather[0].description");
 
-String expectedweather = "scattered clouds2";
+String expectedweather = "scattered clouds";
 if(actualweather.equalsIgnoreCase(expectedweather)){
 	System.out.println("test passed");
 }
