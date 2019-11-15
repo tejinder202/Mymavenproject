@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7002" started-at="2019-08-17T17:37:32Z" finished-at="2019-08-17T17:37:39Z">
+  <suite name="Default suite" duration-ms="9310" started-at="2019-11-15T08:02:01Z" finished-at="2019-11-15T08:02:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7002" started-at="2019-08-17T17:37:32Z" finished-at="2019-08-17T17:37:39Z">
+    <test name="Default test" duration-ms="9310" started-at="2019-11-15T08:02:01Z" finished-at="2019-11-15T08:02:11Z">
       <class name="APITesting.com.org.api.WeatherGetRequest">
-        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@a4a92b]" name="Test_04" duration-ms="6948" started-at="2019-08-17T19:37:32Z" finished-at="2019-08-17T19:37:39Z">
+        <test-method status="PASS" signature="Test_03()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@a4a92b]" name="Test_03" duration-ms="7252" started-at="2019-11-15T13:32:01Z" finished-at="2019-11-15T13:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03 -->
+        <test-method status="PASS" signature="Test_04()[pri:0, instance:APITesting.com.org.api.WeatherGetRequest@a4a92b]" name="Test_04" duration-ms="2000" started-at="2019-11-15T13:32:09Z" finished-at="2019-11-15T13:32:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test_04 -->

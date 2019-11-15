@@ -33,13 +33,13 @@ public void Test_02(){
 
 @Test
 public void Test_03(){
-			given().
+	Response resp =given().
 			param("q","London").
 			param("appid","1f721bd004b754f9146748289e0d1e64").
 			when().
-			get("https://api.openweathermap.org/data/2.5/weather").
-			then().assertThat().statusCode(200);
-	//System.out.println(resp.jsonPath());
+			get("https://api.openweathermap.org/data/2.5/weather");
+			resp.then().assertThat().statusCode(200);
+	System.out.println(resp.jsonPath());
 }
 
 @Test
